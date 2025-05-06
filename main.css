@@ -7,4 +7,18 @@ html {
         margin: 22px;
         background-color: #f4f4f4;
     }
+
+    a {
+        color: #3d547f;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    a:visited {
+        color: #1287d4;
+    }
+
+    a:hover, a:active{
+        color: #1abc9c;
+    }
 } 
